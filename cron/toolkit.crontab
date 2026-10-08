@@ -1,0 +1,2 @@
+*/5 * * * * /opt/toolkit/scripts/health_check.sh >> /var/log/health_check.log 2>&1
+0 2 * * * /opt/toolkit/scripts/log_cleanup.sh >> /var/log/log_cleanup.log 2>&1
